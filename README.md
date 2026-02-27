@@ -140,8 +140,6 @@ A PL/SQL stored function `fun_adjust_Bill` handles bill adjustment logic on the 
 ## ⚠️ Notes
 
 - The Oracle Instant Client path must be correctly set via the `ORACLE_HOME` environment variable for Thick mode to work. Refer to the [python-oracledb documentation](https://python-oracledb.readthedocs.io/) for setup details.
-- Database credentials are read entirely from environment variables — never hardcode them in `app.py`.
-- A `.gitignore` is recommended to exclude your `env.sh` file from version control.
 
 ---
 
